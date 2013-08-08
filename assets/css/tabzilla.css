@@ -29,7 +29,7 @@
 #tabzilla {
   float: right;
   display: block;
-  background: url('/home/matt/loc/tabzilla/assets/images/tab.png');
+  background: url('../images/tab.png');
   height: 44px;
   width: 150px;
   position: relative;
