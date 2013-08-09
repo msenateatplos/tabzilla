@@ -27,15 +27,16 @@
   font-style: normal;
 }
 #tabzilla {
-  float: right;
+  float: left;
   display: block;
-  background: url('/home/matt/loc/tabzilla/assets/images/tab.png');
+  background: url('../images/tab_plos.png');
   height: 44px;
   width: 150px;
   position: relative;
   text-indent: -2000px;
   overflow: hidden;
   z-index: 999;
+  margin-left:5%;
 }
 #tabzilla:after {
   background: #ffffff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABlBMVEX///9ISEhr7AOpAAAAAXRSTlMAQObYZgAAACRJREFUCB1jQAYcAgwyFgx2NQzyPxj4PzCwP2BgPsDA2MCABAB3igVoBVbiiwAAAABJRU5ErkJggg==);
@@ -162,7 +163,7 @@
   display: inline;
   list-style-type: none;
   width: 17%;
-  margin: 40px 3% 0 -1px;
+  margin: 25px 3% 0 -1px;
   padding: 0;
   line-height: 1.1;
   border-right: 1px dotted #ccc;
@@ -202,7 +203,7 @@
   margin: .4em 20px .4em 0;
 }
 #tabzilla-panel #tabzilla-nav ul li#tabzilla-search input {
-  width: 90px;
+  width: 125px;
   background: #fafafa;
   color: #484848;
   border: 1px solid #ddd;
